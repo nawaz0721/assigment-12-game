@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: linear-gradient(90deg , rgb(32, 95, 138) , rgba(46, 243, 79, 0.452) , rgba(174, 48, 212, 0.822)); */
+    background-image: url(Retro-Aesthetic-Wallpaper-HD-Free-download-620x349.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.container {
+    margin: auto;
+    padding: 30px;
+    width: 630px;
+    margin-top: 4%;
+    height: 460px;
+    background-color: rgba(60,61,63,0.6);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+    color: aqua;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#number {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#user_input {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@keyframes countdown {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
